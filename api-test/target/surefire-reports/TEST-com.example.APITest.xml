@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.APITest" time="4.91" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Nagma.Crio\Crio Projects\Nagma_RestAPI\api-test\target\test-classes;C:\Nagma.Crio\Crio Projects\Nagma_RestAPI\api-test\target\classes;C:\Users\nagma.kazi\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.0\junit-jupiter-5.9.0.jar;C:\Users\nagma.kazi\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar;C:\Users\nagma.kazi\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\nagma.kazi\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar;C:\Users\nagma.kazi\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.0\junit-jupiter-params-5.9.0.jar;C:\Users\nagma.kazi\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.0\junit-jupiter-engine-5.9.0.jar;C:\Users\nagma.kazi\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.0\junit-platform-launcher-1.9.0.jar;C:\Users\nagma.kazi\.m2\repository\org\junit\platform\junit-platform-engine\1.9.0\junit-platform-engine-1.9.0.jar;C:\Users\nagma.kazi\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\nagma.kazi\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\nagma.kazi\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\nagma.kazi\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\nagma.kazi\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\nagma.kazi\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\nagma.kazi\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\nagma.kazi\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\nagma.kazi\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\nagma.kazi\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\nagma.kazi\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\nagma.kazi\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\nagma.kazi\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\nagma.kazi\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\nagma.kazi\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\nagma.kazi\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\nagma.kazi\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Users\nagma.kazi\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\21\bin"/>
+    <property name="sun.java.command" value="C:\Users\nagma.kazi\AppData\Local\Temp\surefire6931943956158267133\surefirebooter-20240919173410981_3.jar C:\Users\nagma.kazi\AppData\Local\Temp\surefire6931943956158267133 2024-09-19T17-34-10_634-jvmRun1 surefire-20240919173410981_1tmp surefire_0-20240919173410981_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Nagma.Crio\Crio Projects\Nagma_RestAPI\api-test\target\test-classes;C:\Nagma.Crio\Crio Projects\Nagma_RestAPI\api-test\target\classes;C:\Users\nagma.kazi\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.0\junit-jupiter-5.9.0.jar;C:\Users\nagma.kazi\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.0\junit-jupiter-api-5.9.0.jar;C:\Users\nagma.kazi\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\nagma.kazi\.m2\repository\org\junit\platform\junit-platform-commons\1.9.0\junit-platform-commons-1.9.0.jar;C:\Users\nagma.kazi\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.0\junit-jupiter-params-5.9.0.jar;C:\Users\nagma.kazi\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.0\junit-jupiter-engine-5.9.0.jar;C:\Users\nagma.kazi\.m2\repository\org\junit\platform\junit-platform-launcher\1.9.0\junit-platform-launcher-1.9.0.jar;C:\Users\nagma.kazi\.m2\repository\org\junit\platform\junit-platform-engine\1.9.0\junit-platform-engine-1.9.0.jar;C:\Users\nagma.kazi\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\nagma.kazi\.m2\repository\junit\junit\3.8.1\junit-3.8.1.jar;C:\Users\nagma.kazi\.m2\repository\io\rest-assured\rest-assured\5.5.0\rest-assured-5.5.0.jar;C:\Users\nagma.kazi\.m2\repository\org\apache\groovy\groovy\4.0.22\groovy-4.0.22.jar;C:\Users\nagma.kazi\.m2\repository\org\apache\groovy\groovy-xml\4.0.22\groovy-xml-4.0.22.jar;C:\Users\nagma.kazi\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\nagma.kazi\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\nagma.kazi\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\nagma.kazi\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\nagma.kazi\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\nagma.kazi\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\nagma.kazi\.m2\repository\io\rest-assured\json-path\5.5.0\json-path-5.5.0.jar;C:\Users\nagma.kazi\.m2\repository\org\apache\groovy\groovy-json\4.0.22\groovy-json-4.0.22.jar;C:\Users\nagma.kazi\.m2\repository\io\rest-assured\rest-assured-common\5.5.0\rest-assured-common-5.5.0.jar;C:\Users\nagma.kazi\.m2\repository\io\rest-assured\xml-path\5.5.0\xml-path-5.5.0.jar;C:\Users\nagma.kazi\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\nagma.kazi\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\nagma.kazi"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="C:\Users\nagma.kazi\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Nagma.Crio\Crio Projects\Nagma_RestAPI\api-test"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\nagma.kazi\AppData\Local\Temp\surefire6931943956158267133\surefirebooter-20240919173410981_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.3+9-LTS"/>
+    <property name="user.name" value="Nagma.Kazi"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.3+9"/>
+    <property name="localRepository" value="C:\Users\nagma.kazi\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\NAGMA~1.KAZ\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.3"/>
+    <property name="user.dir" value="C:\Nagma.Crio\Crio Projects\Nagma_RestAPI\api-test"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\nagma.kazi\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\21\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Users\nagma.kazi\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\gradle\latest\bin;C:\Users\nagma.kazi\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\maven\latest\bin;C:\Users\nagma.kazi\AppData\Roaming\Code\User\globalStorage\pleiades.java-extension-pack-jdk\java\21\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Trend Micro\File Encryption;C:\Program Files\TortoiseSVN\bin;C:\Program Files (x86)\Microsoft VS Code\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-11\bin;C:\Program Files\dotnet\;C:\Program Files\WindowsPowerShell\Scripts;C:\Users\nagma.kazi\scoop\apps\python\current\Scripts;C:\Users\nagma.kazi\scoop\apps\python\current;C:\Users\nagma.kazi\scoop\shims;C:\Users\nagma.kazi\AppData\Local\Microsoft\WindowsApps;C:\Nagma.Crio\XMMTSearch\ME_QA_XMMT_SEARCH1_MODULE_L1_STUB-master\ME_QA_XMMT_SEARCH1_MODULE_L1_STUB-master\gradle\.gradle\7.5.1;C:\Program Files\Gradle\gradle-8.5\bin;C:\Users\nagma.kazi\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\SeleniumDrivers\chromedriver-win32;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.3+9-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="getUser" classname="com.example.APITest" time="4.442">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Thu, 19 Sep 2024 16:34:15 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1726551891&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=z66YMLrfpyop19KEhRrxFdmnUnOujKwNEuHPDb1ckyw%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1726551891&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=z66YMLrfpyop19KEhRrxFdmnUnOujKwNEuHPDb1ckyw%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+Via: 1.1 vegur
+Cache-Control: max-age=14400
+CF-Cache-Status: HIT
+Age: 2336
+Vary: Accept-Encoding
+Server: cloudflare
+CF-RAY: 8c5afb6fbef347cd-BOM
+Content-Encoding: gzip
+
+{
+    "page": 2,
+    "per_page": 6,
+    "total": 12,
+    "total_pages": 2,
+    "data": [
+        {
+            "id": 7,
+            "email": "michael.lawson@reqres.in",
+            "first_name": "Michael",
+            "last_name": "Lawson",
+            "avatar": "https://reqres.in/img/faces/7-image.jpg"
+        },
+        {
+            "id": 8,
+            "email": "lindsay.ferguson@reqres.in",
+            "first_name": "Lindsay",
+            "last_name": "Ferguson",
+            "avatar": "https://reqres.in/img/faces/8-image.jpg"
+        },
+        {
+            "id": 9,
+            "email": "tobias.funke@reqres.in",
+            "first_name": "Tobias",
+            "last_name": "Funke",
+            "avatar": "https://reqres.in/img/faces/9-image.jpg"
+        },
+        {
+            "id": 10,
+            "email": "byron.fields@reqres.in",
+            "first_name": "Byron",
+            "last_name": "Fields",
+            "avatar": "https://reqres.in/img/faces/10-image.jpg"
+        },
+        {
+            "id": 11,
+            "email": "george.edwards@reqres.in",
+            "first_name": "George",
+            "last_name": "Edwards",
+            "avatar": "https://reqres.in/img/faces/11-image.jpg"
+        },
+        {
+            "id": 12,
+            "email": "rachel.howell@reqres.in",
+            "first_name": "Rachel",
+            "last_name": "Howell",
+            "avatar": "https://reqres.in/img/faces/12-image.jpg"
+        }
+    ],
+    "support": {
+        "url": "https://reqres.in/#support-heading",
+        "text": "To keep ReqRes free, contributions towards server costs are appreciated!"
+    }
+}
+]]></system-out>
+  </testcase>
+  <testcase name="createUser" classname="com.example.APITest" time="0.432">
+    <system-out><![CDATA[HTTP/1.1 201 Created
+Date: Thu, 19 Sep 2024 16:34:17 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 96
+Connection: keep-alive
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1726763657&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=aco4whfDkaWH3wa9jYJMmS%2BYMV9LJ%2BjJkJNltEjSL70%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1726763657&sid=c4c9725f-1ab0-44d8-820f-430df2718e11&s=aco4whfDkaWH3wa9jYJMmS%2BYMV9LJ%2BjJkJNltEjSL70%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+Etag: W/"60-1jw2YJ5lEYP+fT1Jzlcbb0rlBy4"
+Via: 1.1 vegur
+CF-Cache-Status: DYNAMIC
+Server: cloudflare
+CF-RAY: 8c5afb788a2b47f5-BOM
+
+{
+    "name": "John Doe",
+    "email": "john@example.com",
+    "id": "975",
+    "createdAt": "2024-09-19T16:34:17.280Z"
+}
+]]></system-out>
+  </testcase>
+</testsuite>
